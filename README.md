@@ -1,5 +1,6 @@
 # foreign-languages
-Just a recap of what the project is about
+Just a recap of what the project is about:
+
 A website that people can learn foreign language,maybe french,Italian,germany,it should have different categories 
 beginner,intermediate na advanced,it shld make it easy for beginners like 5-10 light words in a day, and make it 
 challenging for advanced learners like making complete sentences,it shld be able to access users vocabulary strength 
