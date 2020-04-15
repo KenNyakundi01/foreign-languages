@@ -1,0 +1,51 @@
+footer{
+  background-color: black;
+  color: whitesmoke;
+  height:400px;
+  position: relative;
+  margin-top: 50px;
+}
+.footer-top{
+  display: flex;
+  height: 300px;
+}
+.footer-top h1{
+  flex: auto;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-bottom{
+  background-color: rgb(184, 178, 173);
+  color: whitesmoke;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 50px;
+  width:100%;
+}
+img{
+  display: flexbox;
+  flex: auto;
+  padding-left: 20px;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
