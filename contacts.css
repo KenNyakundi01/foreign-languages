@@ -1,13 +1,15 @@
 footer{
-  background-color: black;
-  color: whitesmoke;
+  color: black;
   height:400px;
   position: relative;
   margin-top: 50px;
+  
 }
 .footer-top{
   display: flex;
   height: 300px;
+  
+  
 }
 .footer-top h1{
   flex: auto;
@@ -32,6 +34,13 @@ img{
   padding-left: 20px;
   border-radius: 30%;
   box-shadow: 5px 5px 5px grey;
+}
+.background{
+  position: fixed;
+    top: -146px;
+    left: -105px;
+    width: fit-content;
+    opacity: 0.3;
 }
 
 

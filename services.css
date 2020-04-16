@@ -1,0 +1,11 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+  }
+  .background{
+    position: fixed;
+      top: -146px;
+      left: -105px;
+      width: fit-content;
+      opacity: 0.3;
+  }
+  
