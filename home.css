@@ -1,0 +1,68 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+  }
+  .gesture{
+      position:absolute;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      background-image: url("media/languages.png");
+      opacity:0.8;
+      background-repeat:no-repeat;
+      background-size:cover;
+  }
+  nav>ul{
+    text-align:right;
+    
+  }
+
+  ul>li{
+    display:inline-block;
+  }
+  nav>ul>li>a {
+  padding:18px;
+  margin-right: 0;
+  text-transform:uppercase;
+  text-decoration:none;
+  display: block;
+  color: rgba(255, 255, 255, 0.733);
+  }
+  nav>ul>li>a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background:rgb(230, 99, 12);
+  color:black;
+  }
+  h1{
+      color:white;
+      text-align:center;
+      font-weight:bold;
+      font-family:sans-serif;
+      font-size:100px;
+      position: relative;
+       top: 200px;
+       opacity:0.7;
+       border-style:solid;
+       border-width: 5px;
+       border-color: black;
+       background-color: black;
+}
+.register{
+    position: fixed;
+    bottom: 413px;
+    left: 83px;
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+}
+}
+}
+h2{
+
+}
+.form{
+    position: fixed;
+    top: 66px;
+    background-color: aliceblue;
+}
+}
