@@ -1,0 +1,36 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+
+  background-color:
+      black;  }
+  
+  h1{
+    position: fixed;
+    top: 7px;
+    left: 332px;
+    border-style: outset;
+    background-color: antiquewhite;
+    font-size: 67px;
+}
+.container{
+    
+        display: block;
+          position: fixed;
+          color: white;
+          background-color: black;
+          top: 139px;
+          font-size: 22px;
+          left: 140px;
+      
+}
+
+
+ }
+  #service{
+      background-color:black;
+  }
+  .media{
+    top: 54px;
+    position: fixed;
+    left: 190px;
+  }

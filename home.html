@@ -1,58 +1,187 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-      <link rel="stylesheet" type="text/css" href="home.css">
-  </head>
-  <body>
-    <div class="gesture">
-        
-          <nav>
-            <ul>
-              <li>
-                  <a href="#home">Home</a>
-              </li>
-              <li>
-                  <a href="about.html">About</a>
-              </li>
-              <li>
-                  <a href="services.html">Services</a>
-              </li>
-              <li>
-                  <a href="contacts.html">Contacts</a>
-              </li>
-          </ul>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+
+<h4 class="title">WELCOME TO GoGauge</h4>
+
+<div class="gesture">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+  <button class="tablinks" onclick="openCity(event, 'Services')">Services</button>
+  <button class="tablinks" onclick="openCity(event, 'Contacts')">contacts</button>
+</div>
+
+<div id="Home" class="tabcontent">
+  
+  <h3>Register With us</h3>
           
-          </nav>
-          <h1>WELCOME TO OUR WEBSITE</h1>
-      
-          <button class="register" onclick="submitFunction()"> Submit  </button>
         <span class="registration" id="registration">
            <div class="form">
+       <form name="form1" action="#" onsubmit="myFunction()">
+      
             <label>First name:</label>
-            <input type="text"><br><br>
+                        <label>First name:</label>
+            <input type="text" id="myInput" name = "fname" required><br><br>
             <label>second name:</label>
-            <input type="text"><br><br>
+            <input type="text" name = "sname" required><br><br>
             <label>Email adress:</label>
-            <input type="text"><br><br>
-			 <label>Gender:</label>
-            <input type="text"><br><br>
-            <label>Language interested in:</label>
-            <input type="text"><br><br>
+            <input type="text" name = "ename" required ><br><br>
+				Gender:
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="male">Male
+				<br><br>
+             <label>Select Language:</label>
+             <select id = "myList">
+			 <option value = "1">Japanese</option>
+               <option value = "1">French</option>
+               <option value = "2">English</option>
+               <option value = "3">Spanish</option>
+               <option value = "4">Swahili</option>
+			   <option value = "4">Chinese</option>
+			   <option value = "4">Other</option>
+             </select><br><br>
+            
             <label>phone number:</label>
-            <input type="text"><br><br>
-        </span>
-        </div>
+              <input type="tel" id="phone" name="phone" placeholder="+254 701234567" required><br><br>
+  <small>Format: +254 701234567</small><br><br>
+      <input type="submit" name="submit" value="Submit" onsubmit = "myFunction()" />
      
+        </span>
+		  </form>
+    <p id="demo"></p>
+        </div>
+</div>
+
+<div id="About" class="tabcontent">
+    <div class="container">
+     <p></p>
+        <h2><strong><em>How we operate</em></strong></h2>
+   
+      <p>Welcome to GoGauge where you can learn a variety of languages just at a touch of a button.We offer a variety of languages <br> 
+    and it is upto you to choose the most suitable.<br>
+  We also understand that we have different users who may have an idea on the language they are learning but again we might <br>
+have amateurs.We provide light tasks for the amateurs and advanced tasks for the pros. </p>
+
+<h3 class="master">Walk-Through</h3>
+<p class="walk">At this point you are taken through the steps to follow and how some languages might be related considering the <br>
+pronouciation pattern for example:How german and spanish languages are related due to how similar the <br>pronounciation some words in both languages sounds.
+We had mentioned earlier that amateurs are considered <br>but over a period of time they will automatically considered pros and 
+therefore more advanced tasks.</p>
+     
+      </div>
+</div>
+<div id="Services" class="tabcontent">
+  <div id="service">
+    <h1 class="choose">How Do I choose a Language To Study?</h1>
+    <h2 class="courses">Courses available</h2>
+     <div class="label">
+    <p>Which countries or cultures fascinate you?
+         One way to choose your Flagship language
+          is to think about <br>the foreign places and
+           people you find interesting. See below 
+           for a list of Flagship languages.</p>
+    <ul>
+        <li>British</li>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" width="55">
+        <li>French</li>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/250px-Flag_of_France.svg.png" width="55">
+        <li>Spanish</li>
+        <img src="https://cdn.britannica.com/36/4336-004-D0EB6502/Flag-Spain.jpg" width="55">
+        <li>Chinese</li>
+        <img src="https://image.shutterstock.com/image-photo/china-flag-silk-260nw-456524188.jpg" width="55">
+        <li>Hindi</li>
+        <img src="https://www.theflagshop.co.uk/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/i/n/india-flag-std.jpg" width="55">
+        <li>Arabic</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_the_Arab_League.svg/200px-Flag_of_the_Arab_League.svg.png" width="55">
+    </ul>
+    <img src="https://www.brainscape.com/blog/wp-content/uploads/2015/06/jezici.jpg" height="250">
+    <img src="https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/language_learning_resize_md.jpg" height="250">
+    <img src="https://www.psychologicalscience.org/redesign/wp-content/uploads/2018/04/GettyImages-180722472-609x419.jpg" height="250">
+   </div>
+  </div>
+
+</div>
+<div id="Contacts" class="tabcontent">
+  <footer id="contacts">
+    <div class="footer-top">
+        <h1>Foreign Languages<br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_QtX8KULpw1CU_5f0UxUL70hZc_z2s-0chQXfdxn7Kwev_250&usqp=CAU" height="200px" width="200px">
+        </h1>
+        <h1>contact us:<br>
+            <ul>
+                <ol>0719157932</ol>
+                <ol>0759838423</ol>
+                <ol>0743440385</ol>
+            </ul>
+        </h1>
+        <h1>Follow us on:<br>
+            <img src="https://whatsappbrand.com/wp-content/themes/whatsapp-brc/images/WhatsApp_Logo_6.png" height="50px" width="50px">0759838423<br>
+            <img src="https://w0.pngwave.com/png/739/443/social-media-facebook-logo-computer-icons-facebook-icon-png-clip-art.png" height="50px" width="50px">Foreign Languages<br>
+            <img src="https://www.arct.cam.ac.uk/images/twitter-iucin/image" height="50px" width="50px">#Foreign Languages<br>
+            <img src="https://image.shutterstock.com/image-vector/camera-icon-260nw-528723916.jpg" height="50px" width="50px">Foreign_Language<br>
+        </h1>
     </div>
-    <h2>To register, fill the form below:</h2>
-    <script>
-        function submitFunction(){
-           
-           alert("You have succesfully registered!")
-        }
-    </script>
-  </body>
-</html>
+    <div class="footer-bottom">
+        &copy;Foreign Language
+    </div>
+        </footer>
+
+</div>
+
+</div>
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = "Welcome: " + x;
+}
+function required()
+{
+var empt = document.form1.fname.value;
+if (empt === "")
+{
+alert("Please Enter Your First Name");
+return false;
+}
+var empt = document.form1.sname.value;
+if (empt === "")
+{
+alert("Please Enter Your Second Name");
+return false;
+}
+var empt = document.form1.ename.value;
+if (empt === "")
+{
+alert("Please Enter Your Email Address");
+return false;
+}
+else 
+{
+alert('Registration Successfull!');
+return false; 
+}
+}
+
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 

@@ -1,68 +1,189 @@
-body{
-    font-family: 'Work Sans', sans-serif;
-  }
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f100;
+  position: fixed;
+  right: 0px;
+}
+.title{
+  position: fixed;
+    left: 128px;
+    color: white;
+    background-color: black;
+    font-size: 66px;
+    top: -98px;
+}
+.choose,h1{
+  color: white;
+    position: fixed;
+    top: 74px;
+    background-color: black;
+    left: 198px;
+
+}
+
+.label{
+  color: white;
+    position: fixed;
+    top: 166px;
+    left: 55px;
+    background-color: black;
+}
+.course,h2{
+  color: white;
+  position: fixed;
+  top: 117px;
+  left: 197px;
+  background-color: black;
+}
+.container{
+    
+  display: block;
+    position: fixed;
+    color: white;
+    background-color: black;
+    top: 160px;
+    font-size: 22px;
+    left: 140px;
+
+}
+.walk{
+  color: white;
+    position: fixed;
+    top: 386px;
+    left: 140px;
+    background-color: black;
+
+}
+.master{
+  color: white;
+    position: fixed;
+    left: 140px;
+    top: 350px;
+    background-color: black;
+  
+}
+}
+.title{
+  position: fixed;
+    left: 128px;
+    color: white;
+    background-color: black;
+    font-size: 66px;
+    top: -98px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: red;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+}
+
   .gesture{
       position:absolute;
       top:0;
       bottom:0;
       right:0;
       left:0;
-      background-image: url("media/languages.png");
+      background-image: url("media/picture7.jpg");
       opacity:0.8;
       background-repeat:no-repeat;
       background-size:cover;
   }
-  nav>ul{
-    text-align:right;
-    
-  }
-
-  ul>li{
-    display:inline-block;
-  }
-  nav>ul>li>a {
-  padding:18px;
-  margin-right: 0;
-  text-transform:uppercase;
-  text-decoration:none;
-  display: block;
-  color: rgba(255, 255, 255, 0.733);
-  }
-  nav>ul>li>a:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background:rgb(230, 99, 12);
-  color:black;
-  }
-  h1{
-      color:white;
-      text-align:center;
-      font-weight:bold;
-      font-family:sans-serif;
-      font-size:100px;
-      position: relative;
-       top: 200px;
-       opacity:0.7;
-       border-style:solid;
-       border-width: 5px;
-       border-color: black;
-       background-color: black;
-}
-.register{
+  
+  .form{
+background-color: dodgerblue;
     position: fixed;
-    bottom: 413px;
-    left: 83px;
-    font-size: xx-large;
-    background-color: white;
-    color: black;
-}
-}
-}
-h2{
+    padding: 22px;
+    top: 155px;
+    opacity: 0.9;
+    left: 643px;}
+	
 
-}
-.form{
+.h3, h3 {
+    font-size: 27px;
+    font-family: cursive;
+    padding-left: 10px;
     position: fixed;
-    top: 66px;
-    background-color: aliceblue;
+    color: white;
+    font-weight: bold;
+    top: 69px;
+    left: 668px;
+	
 }
+
+
+.h2, h2,h3,h3,form {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
 }
